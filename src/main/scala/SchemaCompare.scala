@@ -29,7 +29,7 @@ object SchemaCompare {
     println("compare1 :: "+compare1)
 
     //Consider that the diff method returns no difference when a field is present in one list but not in the other one.
-    // So you may need to attach a second condition to compare lengths
+    // So you may need to attach a second condition to compare lengths.
     val compare2 = s1.diff(s2).isEmpty && s1.length == s2.length
     println("compare2 :: "+compare2)
   }
