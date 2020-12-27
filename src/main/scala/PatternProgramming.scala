@@ -2,17 +2,18 @@ object PatternProgramming {
 
   def main(args: Array[String]): Unit = {
 
-    val num = 4
+    val num = 5
 
-    for (i <- 0 to num){
+    for (i <- 1 to num  ){
 
-      for (j <- 0 to num - i - 1 ){
+      for (j <- 1 to num -i ){
 
         print(" ")
       }
-      for (k <- 0 to i + 1){
-        print("*"+" ")
+      for (k <- 1 to i  ){
+        print("* ")
       }
+
       println()
 
     }

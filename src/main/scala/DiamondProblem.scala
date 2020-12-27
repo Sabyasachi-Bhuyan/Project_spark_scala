@@ -18,6 +18,11 @@ object DiamondProblem {
     }
 
 
+    //val lst = List("A","B","C","A")
+
+    //println(lst.toSet)
+
+
   }
 
 }
