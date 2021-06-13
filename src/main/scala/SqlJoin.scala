@@ -34,7 +34,7 @@ object SqlJoin {
     //Inner Join
 
     val inner_join = df1.join(df2, df1("col1") === df2("col1"))
-    val inner_join_1 = df1_1.join(df2_1, df1_1("col1") === df2_1("col1")).show()
+    val inner_join_1 = df1_1.join(df2_1, df1_1("col1") === df2_1("col1"))
 
     //Left Outer Join
     //val full_join = df1.join(df2, df1("col1") === df2("col1"), "full").show()
